@@ -1,0 +1,78 @@
+.header {
+    margin-top: 60px;
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
+  .headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+  }
+/* Header title container */
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+    z-index: 10; /* Set a higher z-index to make the title appear in front */
+}
+
+/* Small header title */
+.headerTitleSm {
+    font-size: 20px;
+}
+
+/* Large header title */
+.headerTitleLg {
+    font-size: 100px;
+}
+
+/* Header image wrapper */
+.headerImgWrapper {
+    animation: fadeIn 2s ease-out;
+    transition: transform 0.5s ease; /* Add a smooth transition */
+}
+
+/* Apply parallax effect on scroll */
+.header.scrolled .headerImgWrapper {
+    transform: translateY(-50%);
+}
+
+/* Header image */
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Apply the fadeIn animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+    }
+}

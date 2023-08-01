@@ -1,0 +1,81 @@
+.write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid #b9d0f1; /* Light Blue */
+    border-radius: 50%;
+    color: #b9d0f1; /* Light Blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    color: #b9d0f1; /* Light Blue */
+  }
+  
+  .writeInput::placeholder {
+    color: #8a9fbf; /* Darker Blue */
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+    border: 1px solid #b9d0f1; /* Light Blue */
+    box-shadow: 0 0 5px #b9d0f1; /* Light Blue */
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+    color: #b9d0f1; /* Light Blue */
+  }
+  
+  .writeSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: #b9d0f1; /* Light Blue */
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .writeSubmit:hover {
+    background-color: #94aed6; /* Darker Blue - Hover state */
+  }
+  
